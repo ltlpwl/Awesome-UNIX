@@ -25,6 +25,7 @@ This list is an exploration of the world of UNIX®, including UNIX history, the 
 	- [Unique Linux® Distributions/Related Projects](https://github.com/sirredbeard/Awesome-UNIX#unique-linux-distributionsrelated-projects)
 	- [Embedded/IoT-Focused Linux® Distributions](https://github.com/sirredbeard/Awesome-UNIX#embeddediot-focused-linux-distributions)
 - [Illumos®](#illumos)
+- [GNU Hurd](#gnu-hurd)
 - [More Unix®-Like Operating Systems](#more-unix-like-operating-systems)
 - [Plan 9® Derivatives](#plan-9-derivatives)
 - [Unix®-like Real Time Operating Systems](#unix-like-real-time-operating-systems)
@@ -92,7 +93,6 @@ For a variety of historical and legal reasons, there has also been a massive exp
 * [Solaris](https://www.oracle.com/solaris/solaris11/index.html)® - Solaris is a Unix operating system originally developed by Sun Microsystems, acquired by Oracle in 2010.
 
 #### [Get More macOS](#more-macos)
-#### [Get More illumos](#more-illumos)
 
 ## AT&T UNIX®-Derived Operating Systems ![Open Source][OSS Icon]
 
@@ -104,11 +104,11 @@ These operating systems, with the exception of Open Server 10, are not UNIX® ce
 * [NetBSD](https://www.netbsd.org)® - NetBSD is a free and open source Unix-like operating system that descends from Berkeley Software Distribution (BSD), a Research Unix derivative developed at the University of California, Berkeley known for it's wideranging platform support. 
 * [DragonflyBSD](https://www.dragonflybsd.org) - DragonFly BSD is a free and open source Unix-like operating system created as a fork of FreeBSD 4.8.
 * [FreeBSD](https://www.freebsd.org)® - FreeBSD is a free and open-source Unix®-like operating system descended from Research Unix via the Berkeley Software Distribution (BSD) known for it's software package availability and speed.
-	* [GhostBSD](http://www.ghostbsd.org) - GhostBSD is a Unix®-like operating system based on FreeBSD with MATE as its default desktop environment.
 	* [TrueOS](https://www.trueos.org)® - TrueOS (formerly PC-BSD or PCBSD) is a Unix®-like, desktop-oriented operating system built upon the most recent releases of FreeBSD. TrueOS features the Lumina desktop environment which is available on other UNIX® operating systems.
+		* [GhostBSD](http://www.ghostbsd.org) - GhostBSD is a Unix®-like operating system based on TrueOS with [MATE](https://mate-desktop.org/) as its default desktop environment.
 	* [MidnightBSD](http://www.midnightbsd.org) - MidnightBSD is a free Unix®-like, desktop-oriented operating system based on FreeBSD 6.1 that borrows heavily from the NeXTSTEP graphical user interface.
 	* [PacBSD](https://pacbsd.org) - A lightweight and flexible FreeBSD distribution that implements the Pacman package manager from Arch Linux.
-	* [HardendedBSD](https://hardenedbsd.org) - HardenedBSD is a security-enhanced fork of FreeBSD. The HardenedBSD Project is implementing many exploit mitigation and security technologies on top of FreeBSD.
+	* [HardendedBSD](https://hardenedbsd.org) - HardenedBSD is a security-enhanced fork of FreeBSD. The HardenedBSD Project implements a number of exploit mitigation and security technologies on top of FreeBSD.
 	* [FreeNAS](http://www.freenas.org)® - FreeNAS is a free and open-source network-attached storage (NAS) software based on FreeBSD and the OpenZFS file system.
 	* [pfSense](https://www.pfsense.org)® - pfSense is an open source firewall/router computer software distribution based on FreeBSD.
 		* [OPNsense](https://opnsense.org)® - OPNsense is a fork of pfSense created in 2014 over technical differences between developers of pfSense.
@@ -134,6 +134,7 @@ These operating systems are not UNIX® certified by The Open Group.
 
 ## Most Unix®-Like Engineered Linux [Distributions](https://en.wikipedia.org/wiki/Linux_distribution) ![Open Source][OSS Icon]
 
+* [GuixSD](https://www.gnu.org/software/guix/) - GuixSD is an advanced distribution of the GNU operating system developed by the GNU Project, home of gcc and the GPL, which respects the freedom of computer users.
 * [Devuan](https://devuan.org) - Devuan Linux is a fork of Debian without systemd from Unix veterans with the goal of becoming the new go-to base distribution for Linux. XFCE is default desktop environment.
 	* [heads](https://heads.dyne.org/about.html) - heads is a live CD to connect securely over Tor, unlike Tails it does not rely on systemd or non-free software. awesome is default desktop environment.
 	* [Gnuinos](http://gnuinos.org/) - Gnuinos is a lightweight Linux libre distro based on Devuan with no non-free software featuring OpenBox desktop.
@@ -143,12 +144,10 @@ These operating systems are not UNIX® certified by The Open Group.
 	* [Redcore](https://redcorelinux.org) - Redcore Linux is a distribution based on Gentoo Linux that aims to be a very quick way to install a pure Gentoo Linux system without spending hours or days compiling from source code.
 * [Alpine](https://alpinelinux.org) - Alpine Linux is an independent, non-commercial, general purpose Linux distribution designed for power users who appreciate security, simplicity and resource efficiency.
 	* [Adélie](http://adelielinux.org/) - Adélie Linux was created by Gentoo users who combined the power of Alpine with the ease-of-use of a binary package manager. Adélie is notable for supporting x86, PowerPC, MIPS, and ARM platforms.
-* [Void](https://www.voidlinux.eu) - Void is a general purpose operating system, based on the monolithic Linux kernel, Features XBPS packaging system.
+* [Void](https://voidlinux.org) - Void is a general purpose operating system, based on the monolithic Linux kernel, Features XBPS packaging system.
 * [Cucumber](http://cucumberlinux.com) - Cucumber Linux aims to provide a Linux distribution that is usable as an every day, general purpose operating system. It aims to do this in as minimalistic a way as possible and in a way that follows the Unix Philosophy. 
 * [Slackware](http://www.slackware.com) - Slackware is a Linux distribution created by Patrick Volkerding in 1993. Slackware aims for design stability and simplicity and to be the most "Unix-like" Linux distribution.
 	* [Salix](https://www.salixos.org) - Salix is a Linux distribution based on Slackware that is simple, fast, and easy to use. Salix adds automated dependency resolution, a larger repository of applications, and a suite of native administration and configuration tools for both the GUI and the command line.
-* [Bedrock](https://bedrocklinux.org/) - Bedrock Linux is a Linux distribution that currently installs from an existing Linux installation, allowing the user to select a preferred init at boot time and install Linux packages from multiple distributions at the same time.
-* [GuixSD](https://www.gnu.org/software/guix/) - GuixSD is an advanced distribution of the GNU operating system developed by the GNU Project —which respects the freedom of computer users.
 * [Linux From Scratch](http://www.linuxfromscratch.org/lfs/) - Linux From Scratch is a way to install a working Linux system by building and installing all components manually, including the bootloader, kernel, and user programs. 
 * [Dragora](https://www.dragora.org/) - The Dragora project produces a libre, reliable, Unix-like GNU/Linux distribution made from scratch.
 * [Trisquel](https://trisquel.info) - Trisquel GNU/Linux is a fully free operating system for home users, small enterprises, and educational centers.
@@ -166,7 +165,7 @@ These operating systems are not UNIX® certified by The Open Group.
 * [SUSE Linux Enterprise](https://www.suse.com)® - SUSE Linux Enterprise workstation/server is a Linux-based operating system developed by SUSE®. It is designed for servers, mainframes, and workstations. 💰
 * [Oracle](https://www.oracle.com/linux/)® - Oracle Linux® is compiled from Red Hat Enterprise Linux source code, replacing Red Hat branding with Oracle's, optimized to run Oracle software. 💰
 * [Deepin](https://www.deepin.org) - Deepin is a popular Chinese Linux distribution based on Debian with a focus on being a user-friendly desktop Linux distribution. It includes a number of pre-installed proprietary applications, such as Skype.
-* [Clear Linux Project](https://clearlinux.org/) - Clear Linux is a distribution developed and packaged by Intel, the makers of Intel computer processors. The distribution is heavily optimized for Intel processors at the kernel and library levels. As a result is it one of the highest performing Linux distros on x86_64 hardware.
+* [Clear Linux](https://clearlinux.org/) - Clear Linux is a distribution developed and maintained by Intel, the makers of Intel computer processors. The distribution is heavily optimized for Intel processors at the kernel and library levels. As a result is it one of the highest performing Linux distros on x86_64 hardware.
 
 ## Popular Non-Commercial Linux® Distributions ![Open Source][OSS Icon]
 
@@ -176,7 +175,6 @@ These operating systems are not UNIX® certified by The Open Group.
 * [Mageia](https://www.mageia.org) - Mageia is a Linux based operating system, distributed as free and open source software. It is forked from the Mandriva Linux distribution.
 * [OpenSUSE](https://www.opensuse.org) - openSUSE formerly SUSE Linux and SuSE Linux Professional, is a Linux-based project and distribution sponsored by SUSE Linux and other companies.
 * [Arch](https://www.archlinux.org) - Arch Linux is a Linux distribution for computers based on x86-64 architectures.
-	* [Antergos](https://antergos.com) - Antergos is a Linux distribution based upon Arch Linux.
 	* [Manjaro](https://manjaro.org) - Manjaro Linux is an open source operating system for computers. It is a distribution of Linux based on the Arch Linux distribution.
 	* [Parabola](https://www.parabola.nu) - Parabola is derived from Arch and provides packages from it that meet the Free Software Foundation guidelines and replacements for the packages that don't.
 * [Solus](https://solus-project.com) - Solus is an independent desktop operating system based on the Linux kernel. It is offered as a curated rolling release model. It is the flagship distro for the Budgie desktop environment and closely tracks optimizations found in Clear Linux, making it one of the fastest desktop Linux distros available.
@@ -201,7 +199,7 @@ These operating systems are not UNIX® certified by The Open Group.
 
 * [Windows Linux Subsystem](https://msdn.microsoft.com/en-us/commandline/wsl/faq) - Windows® Subsystem for Linux (WSL) is a compatibility layer for running Linux binary executables natively on Windows 10. WSL currently supports Ubuntu, OpenSUSE Leap, SUSE Enterprise Linux, Debian, and Kali Linux. Official Fedora support is coming soon. Unofficial support for other distributions. 💰
 * [QubesOS](https://www.qubes-os.org) - Qubes OS is a security-focused desktop operating system that aims to provide security through isolation. Virtualization is performed by Xen®, and user environments can be based on Fedora, Debian, Whonix, and Microsoft Windows, among other operating systems. ![Open Source][OSS Icon]
-* [Clear Linux](https://clearlinux.org) - Clear Linux is a Linux distribution built by Intel for cloud and Internet of Things. Clear Linux is highly optimized for the Intel x86 architecture and as a result often surpasses other Linux distributions in performance benchmarks. Despite being targeted at cloud and IoT, it is now possible to install a complete desktop for workstation use.
+* [Bedrock](https://bedrocklinux.org/) - Bedrock Linux is a Linux distribution that currently installs from an existing Linux installation, allowing the user to select a preferred init at boot time and install Linux packages from multiple distributions at the same time.
 * [GoboLinux](https://www.gobolinux.org) - GoboLinux is an alternative Linux distribution which redefines the entire filesystem hierarchy. In GoboLinux you don't need a package database because the filesystem is the database. ![Open Source][OSS Icon]
 * [GNUSTEP](http://www.aiei.ch/gnustep/) - GNUSTEP is a Linux live CD distribution based on Debian that prominently features the [GNUstep](https://en.wikipedia.org/wiki/GNUstep) application frameworks, a free software re-implementation of the OPENSTEP and Cocoa frameworks originally developed by NeXT with Sun Microsystems.
 * [oasis](https://github.com/michaelforney/oasis) - A small statically-linked linux system suitable for a range of uses including server and desktop. The entire system can be compiled in minutes.
@@ -209,6 +207,7 @@ These operating systems are not UNIX® certified by The Open Group.
 * [RancherOS](https://rancher.com/rancher-os/) - A simplified Linux distribution built from containers, for containers. Everything in RancherOS is a container managed by Docker.
 * [Red Star OS](https://en.wikipedia.org/wiki/Red_Star_OS) - Red Star OS is a North Korean Linux operating system developed for use in North Korea that computer researches have [noted](https://www.reuters.com/article/northkorea-computers/paranoid-north-koreas-computer-operating-system-mirrors-its-political-one-idUSKBN0UA0GF20151227) watermarks every document and media file on a computer or on any USB stick connected to it.
 * [Kali Linux](https://www.kali.org/) - Kali Linux is a Debian-derived Linux distribution designed for digital forensics and penetration testing. It is maintained and funded by Offensive Security Ltd
+* [NixOS Linux](https://nixos.org/) - NixOS is a Linux distribution that built on the unique completely declarative Nix package manager.
 
 ## Embedded/IoT-Focused Linux® Distributions
 
@@ -240,8 +239,15 @@ Solaris® was originally a UNIX operating system developed jointly by Sun Micros
 	* [DilOS](http://www.dilos.org) - DilOS is an illumos-based platform featuring the Debian package manager (dpkg+apt).
 	* [Tribblix](http://tribblix.org) - Tribblix is an operating system created by Peter Tribble. Derived from OpenSolaris, OpenIndiana, and illumos, it blends a retro style with modern components.
 	* [XStreamOS](http://www.sonicle.com/index.jsp?pagename=xstreamos&parent=products) - XStreamOS is an  effort to mantain a distribution of the illumos kernel, featuring a customized text install, the ZFS fileystem, advanced features, and a starting point to contribute and develop the illumos kernel.
+	* [v9os](http://milax.fi/v9os.html) - v9os is a server-only, IPS-based minimal SPARC-only distribution of illumos.
 	
 #### [Get More illumos](#more-illumos)
+
+## GNU Hurd
+
+* [GNU/Hurd](https://www.gnu.org/software/hurd/hurd.html) - GNU Hurd is a multiserver microkernel developed by the GNU Project. It has been under development since 1990 and is designed as a replacement for the Unix kernel. It is released as free software under the GNU General Public License. ![Open Source][OSS Icon]
+	* [Debian GNU/Hurd](https://www.debian.org/ports/hurd/) - Debian GNU/Hurd is an implementation of the GNU Hurd on the Debian userspace with the apt package manager.
+	* [Arch GNU/Hurd](https://archhurd.org/about/) - Arch GNU/Hurd is an implementation of the GNU Hurd on the Arch userspace with the pacman package manager.
 
 ## More Unix-Like Operating Systems
 
@@ -250,10 +256,10 @@ Solaris® was originally a UNIX operating system developed jointly by Sun Micros
 * [PureDarwin](http://www.puredarwin.org) - PureDarwin is a operating system based on the open-source components of Apple's macOS operating system, principally code derived from NeXTSTEP, BSD, Mach, and other software projects released under free software licenses.
 * [Minoca OS](https://github.com/minoca/os) - Minoca OS is a general purpose operating system written from scratch. It aims to be lean, maintainable, modular, and compatible with existing software.
 * [Redox](https://www.redox-os.org) - Redox is a Unix-like microkernel operating system written in the programming language Rust, a language with focus on safety and high performance. Redox aims to be secure, usable, and free. ![Open Source][OSS Icon]
-* [GNU/Hurd](https://www.gnu.org/software/hurd/hurd.html) - GNU Hurd is the multiserver microkernel written as part of GNU. It has been under development since 1990 by the GNU Project of the Free Software Foundation, designed as a replacement for the Unix kernel, and released as free software under the GNU General Public License. ![Open Source][OSS Icon]
 * [Akaros](https://github.com/brho/akaros) - Akaros is an open source, GPL-licensed operating system for manycore architectures. The goal is to provide support for parallel and high-performance applications and to scale to a large number of cores. ![Open Source][OSS Icon]
 * [Sortix](https://sortix.org) - Sortix is a small self-hosting operating-system aiming to be a clean and modern POSIX implementation, a hobbyist operating system written from scratch with its own base system, including kernel and standard library, as well as ports of third party software.
 * [OpenVMS](http://www.vmssoftware.com)™ - OpenVMS is a enterprise operating system known for it's reliability. It is the successor to the VMS Operating System and runs on DEC Alpha systems. OpenVMS has it's own software lineage that predates UNIX and [includes Windows NT](http://www.itprotoday.com/windows-client/windows-nt-and-vms-rest-story) but POSIX compatibility was added to OpenVMS in 1991.
+* [ToaruOS](https://github.com/klange/toaruos) - ToaruOS is a hobbyist, educational, Unix-like operating system built entirely from scratch. It includes a kernel, bootloader, dynamic linker, C standard library, composited windowing system, and several utilities and applications. ![Open Source][OSS Icon]
 
 ## Plan 9 Derivatives
 
@@ -303,6 +309,7 @@ A [real-time operating system](https://en.wikipedia.org/wiki/Real-time_operating
 * [UNIX](https://archive.org/details/unix_2) - From "Computer Chronicles" TV Series (1989). 📼
 * [C and Unix at Bell Labs](https://www.youtube.com/watch?v=TUWt_StXKsY) - By Brian Kernighan at Vintage Computer Federation East 10 (2016). 📼
 * [Unix Architecture Evolution from the 1970 PDP-7 to the 2018 FreeBSD Important Milestones and Lessons Learned](https://www.youtube.com/watch?v=FbDebSinSQo) - By [dspinellis](https://github.com/dspinellis) at Fosdem 2018 📼
+* [The Strange Birth and Long Life of Unix](https://spectrum.ieee.org/tech-history/cyberspace/the-strange-birth-and-long-life-of-unix) - By Warren Toomey
 
 ### "Unix Philosophy"
 
@@ -360,10 +367,25 @@ A [real-time operating system](https://en.wikipedia.org/wiki/Real-time_operating
 
 * [nixCraft](https://www.cyberciti.biz) - NixCraft is an online community of new and seasoned Linux / Unix users.
 * [LWN](https://lwn.net) - LWN is a reader-supported news site dedicated to producing the best coverage from within the Linux and free software development communities. 
-* [/r/unixporn](https://www.reddit.com/r/unixporn/) - A subreddit dedicated to NIX customization.
+* [Reddit](https://www.reddit.com) - A social news aggregation, web content rating, and discussion website. Sorted by users, subreddits include, but not limited to:
+	* [/r/linux](https://www.reddit.com/r/linux/) - General GNU/Linux discussion. ~330k users.
+	* [/r/unixporn](https://www.reddit.com/r/unixporn/) - Dedicated to NIX customization, screenshots, and configurations. ~123k users.
+	* [/r/ubuntu](https://www.reddit.com/r/ubuntu/) - Specific news, information, and discussion about Ubuntu. ~95k users.
+	* [/r/arch](https://www.reddit.com/r/arch/) - Arch Linux discussion and support. ~65k users.
+	* [/r/debian](https://www.reddit.com/r/debian/) - News and other stuff about Debian. ~23k users.
+	* [/r/fedora](https://www.reddit.com/r/fedora/) - News, information, and support surrounding Fedora. ~16k users.
+	* [/r/BSD](https://www.reddit.com/r/BSD/) - A place for all things BSD. ~10k users.
+	* [/r/freebsd](https://www.reddit.com/r/freebsd/) - News and more about FreeBSD. ~9k users.
+	* [/r/slackware](https://www.reddit.com/r/slackware/) - Slackware Linux discussion and support. ~2k users.
+	* [/r/plan9](https://www.reddit.com/r/plan9/) - Discussion surrounding Plan 9 from Bell Labs. ~1k users.
+	* [/r/haikuOS](https://www.reddit.com/r/haikuOS/) - Discussion, support, progress reports, and news about Haiku OS. ~1k users.
+	* [/r/hurd](https://www.reddit.com/r/hurd/) - GNU HURD discussion and support. ~1k users.
+	* [/r/solaris](https://www.reddit.com/r/solaris/) - Oracle Solaris news and discussion. ~1k users.
+	* [/r/minix](https://www.reddit.com/r/minix/) - Discussion surrounding the MINIX 3 OS by Andrew S. Tanenbaum. ~600 users.
 * [DistroWatch](http://distrowatch.com) - DistroWatch is a website which provides news, popularity rankings, and other general information about various Linux distributions and operating systems.
 * IRC [freenode](https://webchat.freenode.net), see [#irchelp](http://www.irchelp.org) for more about IRC.
 	* ##unixlove
+	* ##unix
 	* #climagic
 	* ##kernel
 	* #debian
@@ -374,6 +396,8 @@ A [real-time operating system](https://en.wikipedia.org/wiki/Real-time_operating
 	* #illumos
 * IRC [Snoonet](https://kiwiirc.com/nextclient/?settings=wnuYl5a8fLp)
 	* #linuxmasterrace
+* IRC [OFTC](https://oftc.net)
+	* #linux
 * [Awesome Sysadmin](https://github.com/kahun/awesome-sysadmin) [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 ### Free Software and Open Source Movements
@@ -471,7 +495,8 @@ A [real-time operating system](https://en.wikipedia.org/wiki/Real-time_operating
 ### Intellectual Property Notices
 
 * The Open Group® is not affiliated with and has not endorsed or sponsored this page.
-* UNIX®, The Open Group®, and UnixWare® are trademarks of The Open Group. Use of The Open Group trademarks are authorized by The Open Group [Trademark Guidelines](http://www.opengroup.org/legal/trademark) as "Editorial or Articles, but not Advertising" and/or permitted by trademark fair use under United States law.
+* UNIX® and The Open Group® are trademarks of The Open Group. Use of The Open Group trademarks are authorized by The Open Group [Trademark Guidelines](http://www.opengroup.org/legal/trademark) as "Editorial or Articles, but not Advertising" and/or permitted by trademark fair use under United States law.
+* OpenServer® is a registered trademark of Xinuos.
 * FreeBSD® is a registered trademark of The FreeBSD Foundation. in the United States and/or other countries.
 * NetBSD® is a registered trademark of The NetBSD Foundation, Inc. in the United States and/or other countries.
 * Apple®, MacBook®, iMac®, and macOS® are registered trademarks of Apple, Inc. in the United States and/or other countries.
